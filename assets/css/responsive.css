@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+@media only (max-width: 640px) { body {background: #ffffff;
+}}
+
+body {
+    background: url('../images/concrete_seamless.png');
+    line-height: 25px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+}
+
+@media only (max-width: 768px) {.navbar-brand { background: #f6f8fa;}
+}
+
+.navbar-brand {   
+    background: #4aaaa5;
+    margin: -10px -10px -9px;
+    padding: 30px 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+.nav-link {
+    font-size: 20px;
+    align-content: -35px;
+}
+
+.nav-position {
+    margin-left: 600px;
+}
+
+@media only (max-width: 640px) {
+.page-header {
+    position: static;
+}}
+
+.page-header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.myPic {
+    margin: 0;
+    padding: 0;
+}
+
+@media only (max-width: 600px) { .thumbnail { width: 125px; height: 125px;
+}}
+
+.thumbnail {
+    width: 175px;
+    height: 175px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.bio {
+    background: white;
+    font-size: 16px;
+    max-width: 980px;
+    padding-top: 10px;
+    padding: 10px;
+    margin: 0;
+
+}
+
+.panel-default {
+    background: white;
+    width: 200px;
+    height: 125px;
+    margin-left: 20px;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+.panel-title {
+    font-size: 20px;
+    text-align: left;
+}
+
+.social {
+    width: 50px;
+    height: 50px;
+}
+
+.work {
+    margin-left: 200px;
+    margin-right: 300px;
+    margin-bottom: 0;
+    background: white;
+}
+
+.auth-image {
+    margin-bottom: -10px;
+}
+
+.description {
+    margin: 10px;
+    /* padding-top: 0; */
+    padding-bottom: 15px;
+}
+
+.games {
+    background: white;
+    width: 650px;
+    margin-left: 110px;
+    padding: 0px;
+    overflow: ;
+}
+
+#contact-form {
+    background: white;
+    width: 100%;
+    max-width: 960px;
+    height: 475px;
+    padding: 10px;
+}
+
+label, input[type=text], input[type=email], textarea {
+    display: block;
+    width: 100%;
+}
+
+input[type=text], input[type=email], textarea {
+    height: 35px;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+textarea {
+    height: 200px;
+}
+
+input[type=submit] {
+    background: #4aaaa5;
+    border: 0 none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.footer {
+    background: #666;
+    margin-top: 30px;
+    padding: 30px 0;
+    border-top: 8px solid #4aaaa5;
+    color: #ccc;
+    font-size: 15px;
+    text-align: center;
+}
+
